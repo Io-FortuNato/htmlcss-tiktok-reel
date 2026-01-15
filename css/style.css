@@ -50,7 +50,10 @@ video {
 
 .start2 {
 	color: #ffffffa8;
-	width: 44px
+	width: 44px;
+	position: relative;
+	left: 40px;
+	
 }
 
 .start2:hover {
@@ -63,6 +66,8 @@ video {
 	text-decoration-line: underline;
 	text-decoration-thickness: 2px;
 	text-underline-offset: 8px;
+	position: relative;
+	right: 49px;
 }
 
 .start3:hover {
@@ -73,6 +78,7 @@ video {
 	color: #ffffffa8;
 	width: 44px;
 	position: relative;
+	right: 3px;
 }
 
 .start4::after {
@@ -104,9 +110,67 @@ footer {
 	justify-content: space-around;
 	margin-top: 15px;
 	background-color: black;
-	padding: 14px;
+	padding: 22px;
 }
 
+
+.unity2{
+	color: #787474b9;
+}
+.unity4{
+	color: #787474b9;
+}
+.unity5{
+	color: #787474b9;
+}
+
+.unity3 {
+	transform: rotate(90deg);
+	font-size: 28px;
+	color: #fff;
+	text-shadow:
+	0 0 8px gold,
+	0 0 15px blue,
+	0 0 25px red,
+	0 0 45px violet
+}
+
+
+.new1 {
+	position: relative;
+	right: 30px;
+	top: 12px;
+	font-size: small
+}
+
+.new3 {
+	font-size: 9px;
+	position: relative;
+	bottom: 9px;
+	left: 44px;
+	border: solid rgb(255, 0, 76);
+    background-color: rgb(255, 0, 76);
+	border-radius: 8px;
+	height: 16px;
+}
+
+.new4 {
+	position: relative;
+	top: 16px;
+	right: 56px;
+	font-size: small
+}
+
+.new5 {
+	position: relative;
+	top: 16px;
+	right: 34px;
+	font-size: small
+}
+
+.paragrafo {
+	max-width: 330px;
+}
 
 
 
@@ -124,10 +188,11 @@ footer {
 .sidebar {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
 	color: #fff;
 	align-content: center;
+	min-height: 330px;
 }
 
 img {
@@ -147,6 +212,7 @@ img {
 
 .icon2 {
 	position: relative;
+	font-size: large;
 }
 .span2 {
 	position: absolute;
@@ -156,6 +222,7 @@ img {
 
 .icon3 {
 	position: relative;
+	font-size: large;
 }
 .span3 {
 	position: absolute;
@@ -165,6 +232,7 @@ img {
 
 .icon4 {
 	position: relative;
+	font-size: large;
 }
 .span4 {
 	position: absolute;
@@ -174,31 +242,10 @@ img {
 
 .icon5 {
 	position: relative;
+	font-size: large;
 }
 .span5 {
 	position: absolute;
 	top: 20px;
 	right: -6px;
 }
-
-/* ---------------------
-Regole per evidenziare i blocchi 
-da rimuovere una volta concluso
---------------------- */
-.debug footer {
-	min-height: 100px;
-	border: 2px dashed #fff;
-}
-
-.debug .sidebar {
-	min-width: 80px;
-	min-height: 450px;
-	border: 2px dashed #ff0;
-}
-
-.debug .reel-header {
-	min-height: 50px;
-	border: 2px dashed #fff;
-}
-
-/* --------------------- */
