@@ -36,6 +36,54 @@ video {
 	le tue regole, se necessario. */
 }
 
+.reel-header {
+	display: flex;
+	padding: 12px;
+	width: 100%;
+}
+
+.start1 {
+	color: #fff;
+}
+
+.start2 {
+	color: #ffffffa8;
+	width: 44px
+}
+
+.start2:hover {
+	color: #fff;
+}
+
+.start3 {
+	color: #ffffffa8;
+	width: 44px;
+	text-decoration-line: underline;
+	text-decoration-thickness: 2px;
+	text-underline-offset: 8px;
+}
+
+.start3:hover {
+	color: #fff;
+}
+
+.start4 {
+	color: #ffffffa8;
+	width: 44px;
+	position: relative;
+}
+
+.start4::after {
+	content: "🔴";
+	font-size: 6px;
+	position: relative;
+	bottom: 12px;
+}
+
+.start4:hover {
+	color: #fff;
+}
+
 /* Footer */
 
 footer {
