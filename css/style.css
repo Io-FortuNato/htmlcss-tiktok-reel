@@ -40,6 +40,8 @@ video {
 	display: flex;
 	padding: 12px;
 	width: 100%;
+	align-items: center;
+	justify-content: space-between;
 }
 
 .start1 {
@@ -102,10 +104,70 @@ footer {
 	padding: 0 16px;
 	position: absolute;
 	right: 0;
-	top: 40%;
+	top: 18%;
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+}
+
+.sidebar {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	color: #fff;
+	align-content: center;
+}
+
+img {
+	max-width: 50px;
+	background-color: transparent;
+}
+
+.icon1 {
+	position: relative;
+}
+.span1 {
+	color: rgb(255, 0, 76);
+	position: absolute;
+	top: 40px;
+	left: 18px;
+}
+
+.icon2 {
+	position: relative;
+}
+.span2 {
+	position: absolute;
+	top: 20px;
+	right: -7px;
+}
+
+.icon3 {
+	position: relative;
+}
+.span3 {
+	position: absolute;
+	top: 20px;
+	right: -2px;
+}
+
+.icon4 {
+	position: relative;
+}
+.span4 {
+	position: absolute;
+	top: 20px;
+	right: -8px;
+}
+
+.icon5 {
+	position: relative;
+}
+.span5 {
+	position: absolute;
+	top: 20px;
+	right: -6px;
 }
 
 /* ---------------------
