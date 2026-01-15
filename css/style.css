@@ -99,6 +99,17 @@ footer {
 	le tue regole, se necessario. */
 }
 
+.unione {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 15px;
+	background-color: black;
+	padding: 14px;
+}
+
+
+
+
 /* Sidebar */
 .sidebar {
 	padding: 0 16px;
